@@ -2,8 +2,8 @@
   "development": {
     "username": "postgres",
     "password": "postgres",
-    "database": "zomboid",
-    "host": "127.0.0.1",
+    "database": "botz",
+    "host": "db.abtqymdgqunfsmkqouoh.supabase.co",
     "dialect": "postgres"
   },
   "test": {
@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
+    "username": "postgres",
     "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "database": "botz",
+    "host": "db.abtqymdgqunfsmkqouoh.supabase.co",
+    "dialect": "postgres"
   }
 }
