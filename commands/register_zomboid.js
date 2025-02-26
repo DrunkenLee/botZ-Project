@@ -2,7 +2,7 @@
 
 const { Op } = require('sequelize');
 const { sequelize } = require('../Models');
-const { Player } = require('../models');
+// const { Player } = require('../models');
 
 module.exports = {
   name: 'register',
@@ -72,7 +72,7 @@ async function createPayer(payload) {
       return resp;
     }
 
-    const result = await Player.create({
+    const result = await Player .create({
       username,
       steam_id: steamID,
       role: 'Player'
